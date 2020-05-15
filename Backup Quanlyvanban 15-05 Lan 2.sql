@@ -275,6 +275,7 @@ CREATE TABLE `quyền user` (
 
 /*!40000 ALTER TABLE `quyền user` DISABLE KEYS */;
 INSERT INTO `quyền user` (`rule`,`Tên quyền user`) VALUES 
+ (-1,'Banned'),
  (0,'Admin'),
  (1,'User'),
  (2,'Văn Thư');
